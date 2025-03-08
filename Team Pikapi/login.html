@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Code Hero</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="character-container">
+        <h1>🎮 Choose Your Code Hero!</h1>
+        <p>Select a character to start your coding adventure.</p>
+
+        <div class="character-grid">
+            <div class="character-card" onclick="selectCharacter('bheem', 'HTML & CSS', 'Rebuild the Temple of Code using laddoos!')">
+                <img src="bheem.jpeg" alt="Chhota Bheem">
+                <p>Chhota Bheem</p>
+                <span>HTML & CSS</span>
+            </div>
+            <div class="character-card" onclick="selectCharacter('mickey', 'JavaScript', 'Help Mickey unlock the Magic Code Book!')">
+                <img src="mickey.jpeg" alt="Mickey Mouse">
+                <p>Mickey Mouse</p>
+                <span>JavaScript</span>
+            </div>
+            <div class="character-card" onclick="selectCharacter('doraemon', 'Python', 'Restore Doraemon’s Code Gadgets!')">
+                <img src="doraemon immage.jpg" alt="Doraemon">
+                <p>Doraemon</p>
+                <span>Python</span>
+            </div>
+            <div class="character-card" onclick="selectCharacter('motu-patlu', 'C++', 'Win the Code Racer Challenge!')">
+                <img src="motu patlu.jpeg" alt="Motu Patlu">
+                <p>Motu & Patlu</p>
+                <span>C++</span>
+            </div>
+        </div>
+
+        <div id="story-box">
+            <h2>Choose a character to see their story!</h2>
+        </div>
+
+        <button id="start-btn" disabled>Start Adventure</button>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
